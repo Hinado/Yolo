@@ -1,0 +1,790 @@
+﻿Log file open, 04/21/15 20:21:26
+LogInit:Display: Running engine for game: RevoX01
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.21-18.21.26:748][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.21-18.21.26:803][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.21-18.21.26:819][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.21-18.21.26:831][  0]LogInit: Object subsystem initialized
+[2015.04.21-18.21.26:833][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.21-18.21.26:833][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-18.21.26:833][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.21-18.21.26:833][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-18.21.26:833][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.21-18.21.26:834][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.21-18.21.26:834][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.21-18.21.26:841][  0]LogInit: Computer: P02
+[2015.04.21-18.21.26:841][  0]LogInit: User: Hinato
+[2015.04.21-18.21.26:841][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.21-18.21.26:841][  0]LogInit: High frequency timer resolution =2.727587 MHz
+[2015.04.21-18.21.26:841][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2015.04.21-18.21.26:841][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.21-18.21.26:841][  0]LogMemory: Process Physical Memory: 48.09 MB used, 48.09 MB peak
+[2015.04.21-18.21.26:841][  0]LogMemory: Process Virtual Memory: 24.79 MB used, 26.20 MB peak
+[2015.04.21-18.21.26:841][  0]LogMemory: Physical Memory: 1804.86 MB used, 4087.11 MB total
+[2015.04.21-18.21.26:841][  0]LogMemory: Virtual Memory: 279.70 MB used, 8388608.00 MB total
+[2015.04.21-18.21.26:871][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 Ti   (Feature Level 11_0)
+[2015.04.21-18.21.26:871][  0]LogD3D11RHI: Adapter has 1998MB of dedicated video memory, 0MB of dedicated system memory, and 1787MB of shared system memory, 1 output[s]
+[2015.04.21-18.21.26:871][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.21-18.21.26:875][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.21-18.21.26:883][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.21-18.21.26:951][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.21-18.21.27:056][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.21-18.21.27:056][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.21-18.21.27:157][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.21-18.21.30:190][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.21.30:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.21.30:869][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.21-18.21.30:921][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-18.21.30:921][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.21-18.21.30:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.21-18.21.30:921][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.21-18.21.31:070][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.21-18.21.31:081][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hinato/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.21-18.21.31:466][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.21-18.21.31:466][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.21-18.21.31:894][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.21-18.21.31:989][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.21-18.21.32:947][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.21-18.21.33:177][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.21.33:177][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.21.33:177][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.21.33:177][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.21-18.21.33:177][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.21-18.21.33:188][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.21.33:419][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.21-18.21.33:419][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.21-18.21.33:522][  0]LogEngine: Initializing Engine...
+[2015.04.21-18.21.36:719][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.21-18.21.36:768][  0]LogInit: FAudioDevice initialized.
+[2015.04.21-18.21.36:813][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.21-18.21.36:838][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-18.21.36:844][  0]LogInit: Texture streaming: Enabled
+[2015.04.21-18.21.36:957][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.21-18.21.36:957][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-18.21.36:957][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-18.21.36:957][  0]LogAnalytics: SetUserId 0293e48444163cfde8d972980fd566d2|d13178c4327547f4b81623395438f0bc|c0a7748a-5860-45c5-973b-d3828b400282
+[2015.04.21-18.21.36:957][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.21-18.21.36:982][  0]LogInit: Transaction tracking system initialized
+[2015.04.21-18.21.37:190][  0]BlueprintLog: New page: Editor Load
+[2015.04.21-18.21.37:229][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.04.21-18.21.37:229][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.21-18.21.37:855][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.21.38:261][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.21.38:575][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.21-18.21.38:575][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.21-18.21.38:581][  0]LogConsoleResponse:Display: 
+[2015.04.21-18.21.38:734][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.21-18.21.38:915][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.21.38:915][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.21-18.21.38:915][  0]LightingResults: New page: Lighting Build
+[2015.04.21-18.21.38:930][  0]MapCheck: New page: Map Check
+[2015.04.21-18.21.38:930][  0]LightingResults: New page: Lighting Build
+[2015.04.21-18.21.38:938][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014C90720
+[2015.04.21-18.21.39:710][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.21-18.21.39:712][  0]LogAIModule: Creating AISystem for world NewGameMap
+[2015.04.21-18.21.39:713][  0]Cmd: MAP CHECKDEP
+[2015.04.21-18.21.39:713][  0]MapCheck: New page: NewGameMap - Apr 21, 2015, 10:21:39 PM
+[2015.04.21-18.21.39:802][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.641ms to complete.
+[2015.04.21-18.21.39:802][  0]LogFileHelpers: Loading map 'NewGameMap' took 0.888
+[2015.04.21-18.21.39:952][  0]LogCollectionManager: Loaded 0 collections in 0.001965 seconds
+[2015.04.21-18.21.39:967][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 1696 classes and 261 folders.
+[2015.04.21-18.21.40:007][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2015.04.21-18.21.40:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.21-18.21.40:072][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.21-18.21.40:075][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.21-18.21.40:110][  0]LogLoad: Full Startup: 15.74 seconds (BP compile: 0.10 seconds)
+[2015.04.21-18.21.40:150][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay'
+[2015.04.21-18.21.40:356][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.04.21-18.21.40:737][  8]LogAssetRegistry: Asset discovery search completed in 3.5183 seconds
+[2015.04.21-18.21.45:593][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints'
+[2015.04.21-18.21.47:792][761]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay'
+[2015.04.21-18.22.14:755][539]BlueprintLog: New page: Compile ATBTT_AI_Controller
+[2015.04.21-18.22.15:231][539]BlueprintEditorCompileResults: Info [0050.86] Compile of ATBTT_AI_Controller successful! [in 475 ms]
+[2015.04.21-18.22.27:719][327]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.21-18.22.27:743][327]LoadErrors:Error: Error Failed import for ArrayProperty
+[2015.04.21-18.22.27:985][327]LogLinker:Warning: CreateImport: Object 'ButtonWasClicked__DelegateSignature' isn't imported, because its outer is a placeholder. Archive: '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset'
+[2015.04.21-18.22.28:097][327]LoadErrors:Error: Error Failed import for ArrayProperty
+[2015.04.21-18.22.28:296][327]LogBlueprint:Warning: [ProfessionWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:379][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:380][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:398][327]LogBlueprint:Warning: [compiler] Warning [0064.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 1 Warning(s) [in 49 ms]
+[2015.04.21-18.22.28:398][327]LogBlueprint:Warning: [compiler] Warning [0064.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:398][327]LogBlueprint:Warning: [compiler] Warning [0064.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:398][327]LogBlueprint:Warning: [compiler] Warning [0064.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:544][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:556][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:598][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:679][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:704][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:719][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:730][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:739][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.28:880][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:880][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:880][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:881][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:881][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:898][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:900][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:901][327]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.22.28:903][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:905][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:905][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:906][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:906][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:908][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:909][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:909][327]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.22.28:981][327]LogBlueprint:Warning: [compiler] Warning [0064.61] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 8 Warning(s) [in 231 ms]
+[2015.04.21-18.22.28:982][327]LogBlueprint:Warning: [compiler] Warning [0064.61] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:982][327]LogBlueprint:Warning: [compiler] Warning [0064.61] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:982][327]LogBlueprint:Warning: [compiler] Warning [0064.61] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 11 Warning(s) [in 0 ms]
+[2015.04.21-18.22.28:987][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.22.28:987][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:987][327]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.22.28:988][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.28:988][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:988][327]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.22.28:990][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.22.28:990][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:990][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.28:991][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:992][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.22.28:992][327]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Ceramic_Tile_N.T_Ceramic_Tile_N Referenced by EdGraphPin_40043
+[2015.04.21-18.22.28:992][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:996][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.28:997][327]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40619
+[2015.04.21-18.22.28:997][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.28:997][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.28:998][327]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40673
+[2015.04.21-18.22.28:998][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.22.29:322][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:325][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:327][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:336][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:340][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:342][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:344][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:346][327]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:379][327]LogBlueprint:Warning: [ProfessionWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.22.29:478][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.22.29:478][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.22.29:478][327]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.22.29:478][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.29:479][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.22.29:479][327]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.22.29:480][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.22.29:481][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.22.29:481][327]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.22.29:481][327]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.22.31:163][429]BlueprintLog: New page: Compile ATBTT_GameMode
+[2015.04.21-18.22.31:568][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003188ECA0
+[2015.04.21-18.22.31:672][429]BlueprintEditorCompileResults: Info [0067.30] Compile of ATBTT_GameMode successful! [in 509 ms]
+[2015.04.21-18.22.33:252][498]LogSavePackage: Save=539.428467ms
+[2015.04.21-18.22.33:252][498]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/ATBTT_GameModeB942EF9548921D68BB945CAE29D4AD63.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.uasset'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode_C' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:UserConstructionScript.K2Node_FunctionEntry_224' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:EventGraph.K2Node_Event_216' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:Let the First Pawn in Initiative Become the Last.K2Node_FunctionEntry_259' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:Choose Next Pawn.K2Node_Tunnel_599' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:Choose Next Pawn.K2Node_Tunnel_598' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:Sort Pawns in Initiative Order.K2Node_FunctionEntry_441' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:Set Unit to First in Initiative.K2Node_FunctionEntry_2063' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.Combat_GameMode:UNUSED: Sorts pawns in initiative order based on their initiative attribute.K2Node_FunctionEntry_4269' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.50:676][ 57]LogMetaData: Removing '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.SKEL_Combat_GameMode_C' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_GameMode.PackageMetaData'
+[2015.04.21-18.22.51:501][ 57]LogSavePackage: Save=465.798889ms
+[2015.04.21-18.22.51:501][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Combat_GameMode2B1453BD4FDD9A864103BFB1E38220EE.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.uasset'
+[2015.04.21-18.22.51:810][ 57]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B5E2AC0
+[2015.04.21-18.22.52:459][ 57]LogSavePackage: Save=472.509949ms
+[2015.04.21-18.22.52:459][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/ATBTT_AI_Controller55BEDCB241D3FB9CACFE8D93B0A75A09.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_AI_Controller.uasset'
+[2015.04.21-18.22.53:362][ 57]LogSavePackage: Save=875.780334ms
+[2015.04.21-18.22.53:362][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/ATBTT_PlayerController7F627635439CC6F133387A8F27907A6F.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset'
+[2015.04.21-18.22.53:675][ 57]LogSavePackage: Save=296.602814ms
+[2015.04.21-18.22.53:675][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/BP_Grid_Camera223885364D29D45A0C74E28972703486.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/BP_Grid_Camera.uasset'
+[2015.04.21-18.23.02:211][ 57]LogSavePackage: Save=8410.146484ms
+[2015.04.21-18.23.02:211][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/BP_Grid_ManagerD88CDEC840989F6C29BADCB76C88BF3F.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/BP_Grid_Manager.uasset'
+[2015.04.21-18.23.03:421][ 57]LogSavePackage: Save=1107.525391ms
+[2015.04.21-18.23.03:421][ 57]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Unit_Parent3C9C440F494B1AD3F050AA84F9CBF162.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.uasset'
+[2015.04.21-18.23.06:537][263]LogSavePackage: Save=91.681038ms
+[2015.04.21-18.23.06:537][263]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/NewGameMap40CAE11C46252CB32540DA9624D07C30.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap'
+[2015.04.21-18.23.11:354][639]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RevoX/Game'
+[2015.04.21-18.23.19:525][192]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints'
+[2015.04.21-18.23.20:805][333]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay'
+[2015.04.21-18.23.25:607][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RevoX/Game'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode_C' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.SKEL_Combat_GameMode_C' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:Choose Next Pawn.K2Node_Tunnel_598' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:Choose Next Pawn.K2Node_Tunnel_599' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:EventGraph.K2Node_Event_216' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:Let the First Pawn in Initiative Become the Last.K2Node_FunctionEntry_259' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:Set Unit to First in Initiative.K2Node_FunctionEntry_2063' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:Sort Pawns in Initiative Order.K2Node_FunctionEntry_441' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:UNUSED: Sorts pawns in initiative order based on their initiative attribute.K2Node_FunctionEntry_4269' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:128][107]LogMetaData: Removing '/Game/RevoX/Game/Combat_GameMode.Combat_GameMode:UserConstructionScript.K2Node_FunctionEntry_224' ref from Metadata '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Combat_GameMode.PackageMetaData'
+[2015.04.21-18.23.29:488][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RevoX/Game/Combat_GameMode" FILE="../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/Combat_GameMode.uasset" SILENT=true
+[2015.04.21-18.23.29:905][107]LogSavePackage: Save=412.921753ms
+[2015.04.21-18.23.29:905][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Combat_GameMode531A215446798D17B204EE9FC1F9D843.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/Combat_GameMode.uasset'
+[2015.04.21-18.23.30:744][107]LogSavePackage: Save=465.008087ms
+[2015.04.21-18.23.30:744][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/ATBTT_AI_Controller66BD629048FDC9B8B2F111B9D1327E49.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_AI_Controller.uasset'
+[2015.04.21-18.23.31:622][107]LogSavePackage: Save=862.035217ms
+[2015.04.21-18.23.31:622][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/ATBTT_PlayerControllerD1D24BD042F93207D9931B81928C8C32.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset'
+[2015.04.21-18.23.31:933][107]LogSavePackage: Save=295.888641ms
+[2015.04.21-18.23.31:933][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/BP_Grid_Camera91EF9EE04C261E5CFFE83087A464C5FC.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/BP_Grid_Camera.uasset'
+[2015.04.21-18.23.39:991][107]LogSavePackage: Save=8005.520020ms
+[2015.04.21-18.23.39:991][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/BP_Grid_ManagerE8263A0D4E09D8F7703F0EB823A92CDB.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/BP_Grid_Manager.uasset'
+[2015.04.21-18.23.40:745][107]LogSavePackage: Save=733.968872ms
+[2015.04.21-18.23.40:745][107]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Unit_Parent0B4CCD4341D0193DBDC84E9CF3DEEEDA.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.uasset'
+[2015.04.21-18.24.02:365][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:365][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/ScreenResolutionWidget.uasset.
+[2015.04.21-18.24.02:365][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/ScreenResolutionWidget : Can't find file for asset. /Game/StarterContent/Audio/Collapse01
+[2015.04.21-18.24.02:365][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:366][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/ScreenResolutionWidget.uasset.
+[2015.04.21-18.24.02:366][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/ScreenResolutionWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_D
+[2015.04.21-18.24.02:367][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:367][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/ScreenResolutionWidget.uasset.
+[2015.04.21-18.24.02:368][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:368][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/ScreenResolutionWidget.uasset.
+[2015.04.21-18.24.02:369][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:369][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:370][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/OptionsWidget : Can't find file for asset. /Game/StarterContent/Audio/Collapse01
+[2015.04.21-18.24.02:370][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:370][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:370][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/OptionsWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_D
+[2015.04.21-18.24.02:370][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:371][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:371][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:371][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:373][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:373][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by ResolutionButton
+[2015.04.21-18.24.02:374][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:374][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:374][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:375][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:375][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:375][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:376][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:432][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:432][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:432][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:433][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:434][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:434][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:435][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:435][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/OptionsWidget.uasset.
+[2015.04.21-18.24.02:482][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:482][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:482][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/MainMenuWidget : Can't find file for asset. /Game/StarterContent/Audio/Collapse01
+[2015.04.21-18.24.02:482][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:483][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:483][467]LoadErrors:Error: Error /Game/RevoX/UI/Widgets/MainMenuWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_D
+[2015.04.21-18.24.02:483][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:483][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:484][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:484][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:485][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:485][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by Option1Button
+[2015.04.21-18.24.02:485][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:486][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:486][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:486][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:487][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:487][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:487][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:488][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:488][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by Option2Button
+[2015.04.21-18.24.02:488][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:488][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:489][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:489][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:489][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:490][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:490][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:491][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:491][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by OptionReturnButton
+[2015.04.21-18.24.02:491][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:492][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:492][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:492][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:493][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:493][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:493][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:494][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:494][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by PPHigh
+[2015.04.21-18.24.02:494][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:495][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:495][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:495][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:496][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:496][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:496][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:497][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:497][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by PPLow
+[2015.04.21-18.24.02:497][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:497][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:498][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:498][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:499][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:499][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:499][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:500][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:500][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by PPMedium
+[2015.04.21-18.24.02:500][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:500][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:501][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:501][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:502][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:502][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:502][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:503][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:503][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by PPOff
+[2015.04.21-18.24.02:503][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:504][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:504][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:504][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:505][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:505][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:505][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:507][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:507][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:508][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:508][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:509][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:509][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:509][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:509][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:510][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:510][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:511][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:511][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:511][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:512][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:512][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:512][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:513][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:513][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:514][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:514][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:514][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:515][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:515][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:515][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:516][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:516][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:516][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:517][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:517][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:518][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:518][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:518][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:519][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:519][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:519][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:520][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:520][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:521][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:521][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:521][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:522][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:522][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:522][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:523][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:523][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:524][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:524][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:524][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:525][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:525][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:525][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:526][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:526][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:526][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:527][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:527][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:753][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:754][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:754][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:754][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:754][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:755][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:755][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:755][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:756][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:756][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by OptionsButton
+[2015.04.21-18.24.02:756][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:757][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:757][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:758][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:758][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:758][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:759][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:759][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:759][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by QuitButton
+[2015.04.21-18.24.02:760][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:760][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:760][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:761][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:761][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:762][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:762][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:762][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:763][467]LoadErrors: Info Failed to load /Game/RevoX/UI/Widgets/MainMenuWidget.MainMenuWidget_C Referenced by StartButton
+[2015.04.21-18.24.02:763][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:763][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:764][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:764][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:764][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:765][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:765][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:766][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:766][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:767][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:767][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:767][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:768][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:768][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:768][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:769][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:769][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:770][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:770][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:771][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:771][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:771][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:772][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:772][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:772][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:773][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:773][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:774][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.02:774][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.02:774][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.02:775][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.03:084][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.03:084][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.03:084][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.03:084][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.03:085][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.03:086][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.03:086][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.03:086][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Widgets/MainMenuWidget.uasset.
+[2015.04.21-18.24.03:096][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.03:097][467]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_D.T_Concrete_Tiles_D Referenced by Button_38
+[2015.04.21-18.24.03:097][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading NULL.
+[2015.04.21-18.24.03:097][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.03:097][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading NULL.
+[2015.04.21-18.24.03:098][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_D'
+[2015.04.21-18.24.03:098][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_D' while loading NULL.
+[2015.04.21-18.24.03:099][467]LogLinker:Warning: Can't find file '/Game/StarterContent/Audio/Collapse01'
+[2015.04.21-18.24.03:099][467]LoadErrors: Info Failed to load /Game/StarterContent/Audio/Collapse01.Collapse01 Referenced by Button_38
+[2015.04.21-18.24.03:099][467]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse01' while loading NULL.
+[2015.04.21-18.24.19:833][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AE2ACA0
+[2015.04.21-18.24.19:835][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317704A0
+[2015.04.21-18.24.19:878][275]LogMetaData: Removing '/Game/RevoX/Game/MM_PlayerController.MM_PlayerController_C' ref from Metadata '/Game/RevoX/Game/MainPlayerController.PackageMetaData'
+[2015.04.21-18.24.19:878][275]LogMetaData: Removing '/Game/RevoX/Game/MM_PlayerController.MM_PlayerController:EventGraph.K2Node_Event_502' ref from Metadata '/Game/RevoX/Game/MainPlayerController.PackageMetaData'
+[2015.04.21-18.24.19:878][275]LogMetaData: Removing '/Game/RevoX/Game/MM_PlayerController.MM_PlayerController:EventGraph.K2Node_Event_501' ref from Metadata '/Game/RevoX/Game/MainPlayerController.PackageMetaData'
+[2015.04.21-18.24.19:878][275]LogMetaData: Removing '/Game/RevoX/Game/MM_PlayerController.MM_PlayerController:UserConstructionScript.K2Node_FunctionEntry_520' ref from Metadata '/Game/RevoX/Game/MainPlayerController.PackageMetaData'
+[2015.04.21-18.24.19:878][275]LogMetaData: Removing '/Game/RevoX/Game/MM_PlayerController.SKEL_MM_PlayerController_C' ref from Metadata '/Game/RevoX/Game/MainPlayerController.PackageMetaData'
+[2015.04.21-18.24.19:936][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RevoX/Game/MM_PlayerController" FILE="../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/MM_PlayerController.uasset" SILENT=true
+[2015.04.21-18.24.19:957][275]LogSavePackage: Save=19.109932ms
+[2015.04.21-18.24.19:957][275]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/MM_PlayerControllerDCDD76CC4B03F698BE8E759ECD3A2771.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/MM_PlayerController.uasset'
+[2015.04.21-18.24.20:356][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RevoX/Game/MM_GameMode" FILE="../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/MM_GameMode.uasset" SILENT=true
+[2015.04.21-18.24.20:385][275]LogSavePackage: Save=21.894077ms
+[2015.04.21-18.24.20:385][275]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/MM_GameModeBA5F08514D72CB4039EC1AB1046BB20E.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Game/MM_GameMode.uasset'
+[2015.04.21-18.24.23:020][543]LogSavePackage: Save=77.238602ms
+[2015.04.21-18.24.23:020][543]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/NewGameMapC6ECFC3C499BA659F8714586C4465F96.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap'
+[2015.04.21-18.24.26:231][890]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns'
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_0
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.32:587][346]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_0
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.24.37:747][760]BlueprintLog: New page: Compile Unit_Parent
+[2015.04.21-18.24.38:203][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:203][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:203][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:203][760]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_1
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.24.38:324][760]BlueprintEditorCompileResults: Info [0193.95] Compile of Unit_Parent successful! [in 577 ms]
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_2
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.24.38:326][760]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_2
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.25.21:489][198]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RevoX/Pawns'
+[2015.04.21-18.25.23:034][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.25.23:034][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.25.23:034][287]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_7:PersistentLevel.Unit_Parent_C_0
+	Function /Game/RevoX/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:023D
+[2015.04.21-18.25.23:034][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.25.23:034][287]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.25.23:034][287]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_7:PersistentLevel.Unit_Parent_C_0
+	Function /Game/RevoX/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:023D
+[2015.04.21-18.25.39:704][178]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.21-18.25.39:741][178]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.21-18.25.39:741][178]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.21-18.25.39:742][178]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.21-18.25.39:742][178]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.21-18.25.39:753][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172 or K2Node_CallFunction /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172
+[2015.04.21-18.25.39:753][178]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172.EdGraphPin_55425) from referencer (EdGraphPin /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_VariableSet_918.EdGraphPin_55392).  Import failed...
+[2015.04.21-18.25.39:753][178]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6172.EdGraphPin_55425''
+[2015.04.21-18.25.39:753][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_12530 or K2Node_CallFunction /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_12530
+[2015.04.21-18.25.39:753][178]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_12530.EdGraphPin_55332) from referencer (EdGraphPin /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_VariableSet_918.EdGraphPin_55390).  Import failed...
+[2015.04.21-18.25.39:753][178]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12530.EdGraphPin_55332''
+[2015.04.21-18.25.39:756][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_370 or K2Node_CommutativeAssociativeBinaryOperator /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_370
+[2015.04.21-18.25.39:756][178]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_370.EdGraphPin_55412) from referencer (EdGraphPin /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_VariableGet_3531.EdGraphPin_55405).  Import failed...
+[2015.04.21-18.25.39:756][178]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_370.EdGraphPin_55412''
+[2015.04.21-18.25.39:758][178]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172 or K2Node_CallFunction /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172
+[2015.04.21-18.25.39:759][178]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RevoX/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CallFunction_6172.EdGraphPin_55424) from referencer (EdGraphPin /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_370.EdGraphPin_55414).  Import failed...
+[2015.04.21-18.25.39:759][178]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6172.EdGraphPin_55424''
+[2015.04.21-18.25.39:787][178]LogBlueprint:Warning: [Unit_Parent] CreatePinForVariable: 'Strenght' variable not found. Base class was probably changed.
+[2015.04.21-18.26.26:561][802]BlueprintLog: New page: Compile Unit_Parent
+[2015.04.21-18.26.26:969][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.26:969][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.26:969][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.26:969][802]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_2
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.26.27:141][802]BlueprintEditorCompileResults: Info [0302.77] Compile of Unit_Parent successful! [in 580 ms]
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_3
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.26.27:143][802]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Unit_Parent_C /Engine/Transient.World_6:PersistentLevel.Unit_Parent_C_3
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent_C:UserConstructionScript:0293
+[2015.04.21-18.26.29:222][882]LogSavePackage: Save=1122.518555ms
+[2015.04.21-18.26.29:222][882]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Unit_ParentE3B6513D4CBEE11D3738E2B3A42913FB.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.uasset'
+[2015.04.21-18.26.39:877][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015645C60
+[2015.04.21-18.26.39:916][895]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000146DCAE0
+[2015.04.21-18.27.02:833][895]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_Unit_Parent_C' or package '/Game/RevoX/Pawns/Unit_Parent'.
+[2015.04.21-18.27.13:806][164]LogSavePackage: Save=78.077072ms
+[2015.04.21-18.27.13:806][164]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/NewGameMap0773638848716A3BE6BD099614FCC618.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap'
+[2015.04.21-18.27.21:622][394]Cmd: QUIT_EDITOR
+[2015.04.21-18.27.22:306][394]LogExit: Preparing to exit.
+[2015.04.21-18.27.23:103][394]LogExit: Editor shut down
+[2015.04.21-18.27.23:103][394]LogExit: Transaction tracking system shut down
+[2015.04.21-18.27.23:104][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001092E3E0
+[2015.04.21-18.27.23:104][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C09B600
+[2015.04.21-18.27.23:104][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022604FE0
+[2015.04.21-18.27.23:200][394]LogExit: Object subsystem successfully closed.
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.21-18.27.23:252][394]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.21-18.27.23:253][394]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.21-18.27.23:375][394]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.21-18.27.23:376][394]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.21-18.27.23:575][394]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.21-18.27.23:575][394]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.21-18.27.23:575][394]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.21-18.27.23:576][394]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.21-18.27.23:577][394]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.21-18.27.23:577][394]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.21-18.27.23:577][394]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.21-18.27.23:577][394]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.21-18.27.23:721][394]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.21-18.27.23:722][394]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.21-18.27.23:822][394]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.21-18.27.23:822][394]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.21-18.27.23:825][394]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.21-18.27.23:830][394]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.21-18.27.23:895][394]LogDerivedDataCache: Shutdown
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.21-18.27.23:895][394]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.21-18.27.23:900][394]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.21-18.27.23:901][394]LogExit: Exiting.
+[2015.04.21-18.27.23:906][394]Log file closed, 04/21/15 20:27:23

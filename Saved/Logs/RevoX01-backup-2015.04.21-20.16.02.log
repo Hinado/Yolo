@@ -1,0 +1,922 @@
+﻿Log file open, 04/21/15 20:08:09
+LogInit:Display: Running engine for game: RevoX01
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.21-18.08.10:089][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.21-18.08.10:143][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.21-18.08.10:157][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.21-18.08.10:170][  0]LogInit: Object subsystem initialized
+[2015.04.21-18.08.10:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.21-18.08.10:172][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-18.08.10:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.21-18.08.10:172][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-18.08.10:172][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.21-18.08.10:173][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.21-18.08.10:173][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.21-18.08.10:256][  0]LogInit: Computer: P02
+[2015.04.21-18.08.10:256][  0]LogInit: User: Hinato
+[2015.04.21-18.08.10:256][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.21-18.08.10:256][  0]LogInit: High frequency timer resolution =2.727587 MHz
+[2015.04.21-18.08.10:256][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2015.04.21-18.08.10:256][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.21-18.08.10:256][  0]LogMemory: Process Physical Memory: 47.82 MB used, 47.82 MB peak
+[2015.04.21-18.08.10:256][  0]LogMemory: Process Virtual Memory: 24.46 MB used, 25.88 MB peak
+[2015.04.21-18.08.10:256][  0]LogMemory: Physical Memory: 1676.67 MB used, 4087.11 MB total
+[2015.04.21-18.08.10:256][  0]LogMemory: Virtual Memory: 277.81 MB used, 8388608.00 MB total
+[2015.04.21-18.08.10:441][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 Ti   (Feature Level 11_0)
+[2015.04.21-18.08.10:441][  0]LogD3D11RHI: Adapter has 1998MB of dedicated video memory, 0MB of dedicated system memory, and 1787MB of shared system memory, 1 output[s]
+[2015.04.21-18.08.10:441][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.21-18.08.10:445][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.21-18.08.10:452][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.21-18.08.10:510][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.21-18.08.10:615][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.21-18.08.10:615][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.21-18.08.10:715][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.21-18.08.23:203][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.08.23:797][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.08.23:873][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.21-18.08.23:920][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-18.08.23:920][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.21-18.08.23:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.21-18.08.23:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.21-18.08.24:071][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.21-18.08.24:083][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hinato/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.21-18.08.24:506][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.21-18.08.24:506][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.21-18.08.24:937][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.21-18.08.25:033][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.21-18.08.25:986][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.21-18.08.26:239][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.08.26:239][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.08.26:239][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.08.26:239][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.21-18.08.26:239][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.21-18.08.26:250][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.08.26:466][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.21-18.08.26:466][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.21-18.08.26:569][  0]LogEngine: Initializing Engine...
+[2015.04.21-18.08.28:773][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.21-18.08.28:803][  0]LogInit: FAudioDevice initialized.
+[2015.04.21-18.08.28:848][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.21-18.08.28:872][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Hinato/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-18.08.28:878][  0]LogInit: Texture streaming: Enabled
+[2015.04.21-18.08.28:991][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.21-18.08.28:991][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-18.08.28:991][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-18.08.28:991][  0]LogAnalytics: SetUserId 0293e48444163cfde8d972980fd566d2|d13178c4327547f4b81623395438f0bc|c0a7748a-5860-45c5-973b-d3828b400282
+[2015.04.21-18.08.28:991][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.21-18.08.29:012][  0]LogInit: Transaction tracking system initialized
+[2015.04.21-18.08.29:215][  0]BlueprintLog: New page: Editor Load
+[2015.04.21-18.08.29:255][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.04.21-18.08.29:255][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.21-18.08.30:005][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.08.30:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-18.08.30:807][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.21-18.08.30:808][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.21-18.08.30:814][  0]LogConsoleResponse:Display: 
+[2015.04.21-18.08.31:121][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.21-18.08.31:294][  0]SourceControl: Info Source control is disabled
+[2015.04.21-18.08.31:294][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.21-18.08.31:409][  0]LightingResults: New page: Lighting Build
+[2015.04.21-18.08.31:425][  0]MapCheck: New page: Map Check
+[2015.04.21-18.08.31:425][  0]LightingResults: New page: Lighting Build
+[2015.04.21-18.08.31:433][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014284720
+[2015.04.21-18.08.53:191][  0]LoadErrors:Error: Error Failed import for ArrayProperty
+[2015.04.21-18.08.53:519][  0]LoadErrors:Error: Error Failed import for ArrayProperty
+[2015.04.21-18.08.53:528][  0]LogLinker:Warning: CreateImport: Object 'ButtonWasClicked__DelegateSignature' isn't imported, because its outer is a placeholder. Archive: '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset'
+[2015.04.21-18.08.53:737][  0]LoadErrors:Error: Error Failed import for ArrayProperty
+[2015.04.21-18.08.53:949][  0]LogBlueprint:Warning: [ProfessionWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:032][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:033][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:051][  0]LogBlueprint:Warning: [compiler] Warning [0048.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 1 Warning(s) [in 50 ms]
+[2015.04.21-18.08.54:051][  0]LogBlueprint:Warning: [compiler] Warning [0048.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:051][  0]LogBlueprint:Warning: [compiler] Warning [0048.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:051][  0]LogBlueprint:Warning: [compiler] Warning [0048.03] Compile of ProfessionWidget failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:271][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:284][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:326][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:407][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:432][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:447][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:458][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:467][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.54:624][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:624][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:624][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:624][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:625][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:642][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:644][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:645][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.54:648][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:649][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:650][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:650][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:651][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:652][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:653][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:653][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.54:727][  0]LogBlueprint:Warning: [compiler] Warning [0048.71] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 8 Warning(s) [in 248 ms]
+[2015.04.21-18.08.54:727][  0]LogBlueprint:Warning: [compiler] Warning [0048.71] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:727][  0]LogBlueprint:Warning: [compiler] Warning [0048.71] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:728][  0]LogBlueprint:Warning: [compiler] Warning [0048.71] Compile of CombatUIWidget failed. 8 Fatal Issue(s) 11 Warning(s) [in 0 ms]
+[2015.04.21-18.08.54:763][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.08.54:778][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:778][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.08.54:779][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.54:779][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:779][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.54:781][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.08.54:781][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:781][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.08.54:782][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.54:782][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:782][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.54:784][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.08.54:784][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Ceramic_Tile_N.T_Ceramic_Tile_N Referenced by EdGraphPin_40043
+[2015.04.21-18.08.54:785][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:785][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Ceramic_Tile_N.T_Ceramic_Tile_N Referenced by EdGraphPin_40043
+[2015.04.21-18.08.54:785][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.08.54:789][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.54:789][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40619
+[2015.04.21-18.08.54:789][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:789][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40619
+[2015.04.21-18.08.54:789][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.54:790][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.54:790][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40673
+[2015.04.21-18.08.54:790][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Inventory/CombatUIWidget.uasset.
+[2015.04.21-18.08.54:791][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Concrete_Tiles_N.T_Concrete_Tiles_N Referenced by EdGraphPin_40673
+[2015.04.21-18.08.54:791][  0]LoadErrors:Error: Error /Game/RevoX/UI/Inventory/CombatUIWidget : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.55:120][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:122][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:124][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:133][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:137][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:139][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:142][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:144][  0]LogBlueprint:Warning: [CombatUIWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:177][  0]LogBlueprint:Warning: [ProfessionWidget] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:277][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.08.55:277][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.08.55:277][  0]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.08.55:277][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.55:277][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.08.55:278][  0]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.55:279][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ceramic_Tile_N'
+[2015.04.21-18.08.55:279][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ceramic_Tile_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.08.55:279][  0]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2015.04.21-18.08.55:280][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Concrete_Tiles_N'
+[2015.04.21-18.08.55:280][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Concrete_Tiles_N' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/UI/Battle_HUD_BP.uasset.
+[2015.04.21-18.08.55:280][  0]LoadErrors:Error: Error /Game/RevoX/UI/Battle_HUD_BP : Can't find file for asset. /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2015.04.21-18.08.55:289][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:289][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Chest_Start.uasset.
+[2015.04.21-18.08.55:289][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Chest_Start : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:407][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:407][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Chest_Start.uasset.
+[2015.04.21-18.08.55:408][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Chest_Start : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:413][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:414][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:414][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:414][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:414][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:414][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:457][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:457][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.55:457][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:457][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.55:457][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:458][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Walnut'
+[2015.04.21-18.08.55:458][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut Referenced by StaticMeshComponent_25
+[2015.04.21-18.08.55:458][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Walnut' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:458][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut Referenced by StaticMeshComponent_25
+[2015.04.21-18.08.55:458][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Walnut
+[2015.04.21-18.08.55:605][  0]LogBlueprint:Warning: [Chest_Start] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:617][  0]LogBlueprint:Warning: [Chest_Start] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:712][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.55:713][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "InitiativeOrder" in 'BP_Grid_Manager_C'.
+Make sure 'BP_Grid_Manager_C' has been compiled for  Get InitiativeOrder 
+[2015.04.21-18.08.55:740][  0]LogBlueprint:Error: [compiler] Error The property associated with  Initiative Order  could not be found
+[2015.04.21-18.08.55:784][  0]LogBlueprint:Warning: [compiler] Warning [0049.77] Compile of Chest_Start failed. 1 Fatal Issue(s) 2 Warning(s) [in 144 ms]
+[2015.04.21-18.08.55:784][  0]LogBlueprint:Warning: [compiler] Warning [0049.77] Compile of Chest_Start failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.21-18.08.55:784][  0]LogBlueprint:Warning: [compiler] Warning [0049.77] Compile of Chest_Start failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.21-18.08.55:784][  0]LogBlueprint:Warning: [compiler] Warning [0049.77] Compile of Chest_Start failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.21-18.08.55:794][  0]LogBlueprint:Warning: [Chest_Start] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:796][  0]LogBlueprint:Warning: [Chest_Start] CreatePinForVariable: 'InitiativeOrder' variable not found. Base class was probably changed.
+[2015.04.21-18.08.55:811][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.55:811][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Door.uasset.
+[2015.04.21-18.08.55:811][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Door : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.55:812][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.55:813][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Door.uasset.
+[2015.04.21-18.08.55:813][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Door : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.55:815][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.55:816][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:816][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.55:816][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.55:816][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:816][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.55:847][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.55:847][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Door.SM_Door Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.55:847][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.55:847][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Door.SM_Door Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.55:847][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:155][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.56:155][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Door_closed.uasset.
+[2015.04.21-18.08.56:155][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Door_closed : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:156][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.56:156][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Interactables/Door_closed.uasset.
+[2015.04.21-18.08.56:156][  0]LoadErrors:Error: Error /Game/RevoX/Interactables/Door_closed : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:157][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.56:158][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:158][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:158][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.56:158][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:158][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:161][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Door'
+[2015.04.21-18.08.56:161][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Door.SM_Door Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:161][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Door' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:161][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Door.SM_Door Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:161][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Props/SM_Door
+[2015.04.21-18.08.56:768][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:769][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/PrisonWallEW.uasset.
+[2015.04.21-18.08.56:769][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/PrisonWallEW : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:786][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:786][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/PrisonWallEW.uasset.
+[2015.04.21-18.08.56:786][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/PrisonWallEW : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:788][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:788][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:788][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:788][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:789][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:789][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:791][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:791][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:791][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:791][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:792][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:806][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:807][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/PrisonWallNS.uasset.
+[2015.04.21-18.08.56:807][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/PrisonWallNS : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:808][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:808][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/PrisonWallNS.uasset.
+[2015.04.21-18.08.56:808][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/PrisonWallNS : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:810][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:810][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:810][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:810][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:811][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:811][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:813][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Old'
+[2015.04.21-18.08.56:813][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:813][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Old' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:813][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old Referenced by StaticMeshComponent_538
+[2015.04.21-18.08.56:814][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2015.04.21-18.08.56:839][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Grime'
+[2015.04.21-18.08.56:840][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Grime' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/Tile_Hex_Prison.uasset.
+[2015.04.21-18.08.56:840][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/Tile_Hex_Prison : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Grime
+[2015.04.21-18.08.56:844][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Grime'
+[2015.04.21-18.08.56:844][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Grime' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Tiles/Tile_Hex_Prison.uasset.
+[2015.04.21-18.08.56:845][  0]LoadErrors:Error: Error /Game/RevoX/Tiles/Tile_Hex_Prison : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Grime
+[2015.04.21-18.08.56:846][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Grime'
+[2015.04.21-18.08.56:846][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Grime' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:847][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Grime
+[2015.04.21-18.08.56:847][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Grime'
+[2015.04.21-18.08.56:847][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Grime' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:847][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Grime
+[2015.04.21-18.08.56:849][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Grime'
+[2015.04.21-18.08.56:849][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Grime.M_Concrete_Grime Referenced by StaticMeshComponent_357
+[2015.04.21-18.08.56:850][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Grime' while loading ../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap.
+[2015.04.21-18.08.56:850][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Grime.M_Concrete_Grime Referenced by StaticMeshComponent_357
+[2015.04.21-18.08.56:850][  0]LoadErrors:Error: Error /Game/RevoX/Maps/NewGameMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Grime
+[2015.04.21-18.09.01:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.21-18.09.01:279][  0]LogAIModule: Creating AISystem for world NewGameMap
+[2015.04.21-18.09.01:279][  0]Cmd: MAP CHECKDEP
+[2015.04.21-18.09.01:279][  0]MapCheck: New page: NewGameMap - Apr 21, 2015, 10:09:01 PM
+[2015.04.21-18.09.01:423][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.33ms to complete.
+[2015.04.21-18.09.01:423][  0]LogFileHelpers: Loading map 'NewGameMap' took 30.128
+[2015.04.21-18.09.01:686][  0]LogCollectionManager: Loaded 0 collections in 0.001854 seconds
+[2015.04.21-18.09.01:701][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 1696 classes and 261 folders.
+[2015.04.21-18.09.01:793][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2015.04.21-18.09.02:119][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.21-18.09.02:120][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.21-18.09.02:139][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.21-18.09.02:191][  0]LogLoad: Full Startup: 56.17 seconds (BP compile: 9.11 seconds)
+[2015.04.21-18.09.02:587][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RevoX/Game'
+[2015.04.21-18.09.03:002][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.04.21-18.09.05:278][  7]LogAssetRegistry: Asset discovery search completed in 36.0328 seconds
+[2015.04.21-18.09.13:462][161]LogEditorActor: Deleted Actor: BP_Grid_Camera_C
+[2015.04.21-18.09.13:676][161]LogEditorActor: Deleted 1 Actors (0.271 secs)
+[2015.04.21-18.09.15:237][276]LogEditorActor: Deleted Actor: BP_Grid_Manager_C
+[2015.04.21-18.09.15:287][276]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.04.21-18.09.18:292][543]LogEditorViewport: Clicking on Actor (LMB): Bob_C (Bob2)
+[2015.04.21-18.09.19:190][616]Cmd: DELETE
+[2015.04.21-18.09.19:190][616]Cmd: ACTOR DELETE
+[2015.04.21-18.09.19:233][616]LogEditorActor: Deleted Actor: Bob_C
+[2015.04.21-18.09.19:284][616]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.04.21-18.09.20:657][739]LogEditorViewport: Clicking on Actor (LMB): Bob_C (Bob)
+[2015.04.21-18.09.21:508][812]Cmd: DELETE
+[2015.04.21-18.09.21:508][812]Cmd: ACTOR DELETE
+[2015.04.21-18.09.21:509][812]LogEditorActor: Deleted Actor: Bob_C
+[2015.04.21-18.09.21:561][812]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.04.21-18.09.23:237][965]LogEditorViewport: Clicking on Actor (LMB): Guard_Melee_C (Guard_Melee)
+[2015.04.21-18.09.24:049][ 33]Cmd: DELETE
+[2015.04.21-18.09.24:049][ 33]Cmd: ACTOR DELETE
+[2015.04.21-18.09.24:050][ 33]LogEditorActor: Deleted Actor: Guard_Melee_C
+[2015.04.21-18.09.24:102][ 33]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.04.21-18.09.26:929][290]LogEditorViewport: Clicking on Actor (LMB): Tile_Hex_Prison_C (Tile_Hex_Prison2)
+[2015.04.21-18.09.28:728][446]LogEditorViewport: Clicking on Actor (context menu): Tile_Hex_Prison_C (Tile_Hex_Prison2)
+[2015.04.21-18.09.34:206][ 17]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.09.34:848][ 69]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.09.35:212][ 70]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.09.35:308][ 71]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.09.35:855][121]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.09.37:176][234]LogEditorViewport: Clicking on Actor (LMB): Tile_Hex_Prison_C (Tile_Hex_Prison2)
+[2015.04.21-18.09.37:270][239]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh2)
+[2015.04.21-18.10.49:089][198]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.10.49:091][198]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.10.49:092][198]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.10.49:093][198]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.10.49:094][198]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.10.49:095][198]LogEditorActor: Deleted Actor: Door_closed_C
+[2015.04.21-18.10.54:825][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:230][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:231][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:231][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:232][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:233][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:234][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:234][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:235][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:236][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:236][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:237][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:238][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:239][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:243][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:243][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:244][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:245][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:245][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:246][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:247][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:247][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:248][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:249][198]LogEditorActor: Deleted Actor: GroupActor
+[2015.04.21-18.10.56:249][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:250][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:251][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:252][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:253][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:254][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:254][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:255][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:256][198]LogEditorActor: Deleted Actor: GroupActor
+[2015.04.21-18.10.56:257][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:258][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:259][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:259][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:260][198]LogEditorActor: Deleted Actor: PrisonWallEW_C
+[2015.04.21-18.10.56:261][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:262][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:263][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:264][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:265][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:265][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:266][198]LogEditorActor: Deleted Actor: PrisonWallNS_C
+[2015.04.21-18.10.56:267][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:268][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:269][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:270][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:270][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:271][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:272][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:273][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:274][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:275][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:275][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:276][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:277][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:278][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:279][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:279][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:280][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:281][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:282][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:282][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:283][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:284][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:285][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:286][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:286][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:287][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:288][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:289][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:289][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:290][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:291][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:292][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:292][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:293][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:294][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:295][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:295][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:296][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:297][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:297][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:298][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:299][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:300][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:300][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:301][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:302][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:302][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:303][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:304][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:305][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:305][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:306][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:307][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:307][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:308][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:309][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:309][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:310][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:311][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:311][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:312][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:313][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:313][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:314][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:314][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:315][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:316][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:316][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:317][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:318][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:318][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:319][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:319][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:320][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:321][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:321][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:322][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:323][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:323][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:324][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:324][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:325][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:325][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:326][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:327][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:327][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:328][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:328][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:329][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:329][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:330][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:331][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:331][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:332][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:332][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:333][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:333][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:334][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:334][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:335][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:335][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:336][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:337][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:337][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:338][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:338][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:339][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:339][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:340][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:340][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:341][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:341][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:342][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:342][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:343][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:343][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:344][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:344][198]LogEditorActor: Deleted Actor: Tile_Hex_Prison_C
+[2015.04.21-18.10.56:398][198]LogEditorActor: Deleted 169 Actors (7.310 secs)
+[2015.04.21-18.10.59:196][489]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.02:985][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.02:999][838]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.11.03:529][883]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.11.04:051][931]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.11.04:815][  3]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.11.08:221][306]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.04.21-18.11.12:243][694]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:244][694]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:244][694]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:255][695]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:255][695]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:255][695]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:266][696]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:266][696]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:266][696]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:277][697]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:277][697]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:277][697]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:288][698]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:288][698]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:288][698]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:299][699]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:299][699]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:299][699]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:310][700]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:310][700]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:310][700]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:321][701]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:321][701]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:321][701]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:332][702]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:332][702]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:332][702]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:343][703]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:343][703]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:343][703]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:354][704]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:354][704]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:354][704]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:365][705]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:365][705]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:365][705]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:376][706]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:376][706]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:376][706]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:387][707]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:387][707]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:387][707]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:398][708]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:398][708]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:398][708]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:410][709]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:410][709]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:410][709]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:421][710]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:421][710]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:421][710]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:432][711]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:432][711]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:432][711]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:443][712]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:443][712]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:443][712]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:454][713]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:454][713]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:454][713]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:465][714]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:465][714]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:465][714]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:476][715]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:476][715]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:476][715]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:487][716]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:487][716]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:487][716]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:498][717]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:498][717]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:498][717]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:509][718]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:509][718]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:509][718]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:520][719]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:520][719]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:520][719]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:531][720]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:531][720]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:531][720]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:542][721]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:542][721]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:542][721]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:553][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:553][722]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:553][722]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:565][723]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:565][723]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:565][723]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:576][724]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:576][724]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:576][724]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:587][725]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:587][725]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:587][725]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:598][726]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:598][726]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:598][726]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:609][727]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:609][727]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:609][727]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:620][728]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:620][728]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:620][728]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:631][729]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:631][729]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:631][729]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:642][730]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:642][730]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:642][730]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:653][731]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:653][731]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:653][731]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:664][732]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:664][732]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:664][732]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:675][733]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:675][733]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:675][733]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:686][734]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:686][734]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:686][734]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:697][735]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:697][735]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:697][735]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:708][736]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:708][736]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:708][736]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:718][737]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:718][737]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:718][737]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:729][738]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:729][738]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:729][738]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:749][740]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:749][740]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:750][740]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:760][741]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:760][741]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:760][741]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:771][742]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:771][742]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:771][742]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:782][743]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:782][743]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:782][743]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:793][744]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:793][744]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:793][744]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:804][745]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:804][745]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:804][745]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:815][746]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:815][746]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:815][746]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:826][747]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:826][747]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:826][747]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:837][748]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:837][748]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:837][748]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:848][749]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:848][749]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:848][749]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:859][750]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:859][750]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:859][750]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:870][751]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:870][751]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:870][751]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:900][754]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:900][754]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:900][754]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:911][755]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:911][755]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:911][755]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:922][756]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:922][756]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:922][756]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:933][757]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:933][757]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:933][757]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:944][758]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:944][758]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:944][758]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:955][759]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:955][759]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:955][759]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:966][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:966][760]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:966][760]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:977][761]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:977][761]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:977][761]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:988][762]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:988][762]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:988][762]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.12:999][763]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:999][763]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.12:999][763]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.13:011][764]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:011][764]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:011][764]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.13:022][765]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:022][765]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:022][765]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.13:033][766]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:033][766]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:033][766]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.13:081][771]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:082][771]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2015.04.21-18.11.13:082][771]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item2'
+	Door_C /Game/RevoX/Maps/NewGameMap.NewGameMap:PersistentLevel.Door_C_8
+	Function /Game/AdvancedTurnBasedTileToolkit/Blueprints/Tiles/Tile_Parent.Tile_Parent_C:UserConstructionScript:017B
+[2015.04.21-18.11.17:607][211]Cmd: DELETE
+[2015.04.21-18.11.17:607][211]Cmd: ACTOR DELETE
+[2015.04.21-18.11.17:608][211]LogEditorActor: Deleted Actor: Door_C
+[2015.04.21-18.11.17:660][211]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.04.21-18.11.19:362][384]LogEditorViewport: Clicking on Actor (LMB): Chest_Start_C (Chest_Start)
+[2015.04.21-18.11.20:342][481]Cmd: DELETE
+[2015.04.21-18.11.20:342][481]Cmd: ACTOR DELETE
+[2015.04.21-18.11.20:342][481]LogEditorActor: Deleted Actor: Chest_Start_C
+[2015.04.21-18.11.20:393][481]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.04.21-18.11.22:545][706]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.22:938][743]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.04.21-18.11.24:195][865]Cmd: DELETE
+[2015.04.21-18.11.24:195][865]Cmd: ACTOR DELETE
+[2015.04.21-18.11.24:196][865]LogEditorActor: Deleted Actor: PointLight
+[2015.04.21-18.11.24:255][865]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2015.04.21-18.11.27:494][206]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.28:267][283]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.21-18.11.28:580][310]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.29:362][381]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.31:556][599]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
+[2015.04.21-18.11.32:527][692]Cmd: DELETE
+[2015.04.21-18.11.32:527][692]Cmd: ACTOR DELETE
+[2015.04.21-18.11.32:528][692]LogEditorActor: Deleted Actor: PointLight
+[2015.04.21-18.11.32:578][692]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.04.21-18.11.33:108][749]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.21-18.11.33:368][773]Cmd: DELETE
+[2015.04.21-18.11.33:368][773]Cmd: ACTOR DELETE
+[2015.04.21-18.11.33:369][773]LogEditorActor: Deleted Actor: PointLight
+[2015.04.21-18.11.33:422][773]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2015.04.21-18.11.34:569][899]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.04.21-18.11.39:758][402]LogSavePackage: Save=93.482628ms
+[2015.04.21-18.11.39:758][402]LogSavePackage: Moving '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Saved/NewGameMapD23E188E459B60E7DDB4CF9E47C8BFDB.tmp' to '../../../../../../Users/Hinato/Documents/Unreal Projects/RevoX01/Content/RevoX/Maps/NewGameMap.umap'
+[2015.04.21-18.11.53:520][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints'
+[2015.04.21-18.11.57:284][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Characters'
+[2015.04.21-18.11.58:908][382]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTurnBasedTileToolkit/Blueprints'
+[2015.04.21-18.12.00:623][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AdvancedTu
